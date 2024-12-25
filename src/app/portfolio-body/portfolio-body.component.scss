@@ -1,0 +1,29 @@
+.portfolio-body {
+    width: 100%;
+}
+
+.portfolio-skills-header {
+    width: 100%;
+    border-top: 0.1em solid black;
+    border-bottom: 0.1em solid black;
+    border-left: 0.1em solid black;
+    border-right: 0.1em solid black;
+}
+
+.skills-header-span {
+    font-family: 'ibm-bold';
+    font-size: 2em;
+    color: black;
+}
+
+.skills-span {
+    font-family: 'ibm-light';
+    font-size: 1.5em;
+    color: black;
+}
+
+.skill-category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

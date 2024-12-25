@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+@font-face {
+    font-family: 'ibm-bold';
+    src: url('./assets/IBMPlexMono-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'ibm-light';
+    src: url('./assets/IBMPlexMono-Light.ttf');
+}
+
+@font-face {
+    font-family: 'roboto-slab';
+    src: url('./assets/roboto-slab.ttf');
+}
+
+.center-div-style {
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.center-div-flex {
+    display: flex; 
+    justify-content: center !important; 
+    align-items: center !important;
+}
+
+.separation {
+    width: 90%;
+    padding: 2em;
+}
