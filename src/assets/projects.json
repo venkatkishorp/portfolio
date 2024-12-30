@@ -1,0 +1,91 @@
+[
+    {
+        "name": "Splitwiser",
+        "designation": "Developer",
+        "platform": "Full Stack, LLMs",
+        "work": [
+            "Built a clone of Splitwise, and added receipt scanning using camera or file upload, graphical split functionality, manual split functionality, groups addition and non-group expenses functionality",
+            "Integrated Google Gemini API to convert receipts to JSON, used NextJS and Google firebase for app development"
+        ],
+        "tech_used": "NextJS, Google Gemini, Firebase, Firestore",
+        "tenure": "June 2024 - Present",
+        "link": "https://splitwiserfe.vercel.app/"
+    },
+    {
+        "name": "LLM Based Chatbot",
+        "designation": "Developer",
+        "platform": "Full Stack, LLMs",
+        "work": [
+            "Developed a chatbot application by integrating Llama model, including RAG (Retrieval-Augmented Generation) to provide context-aware user interactions",
+            "Deployed the application on AWS EC2, utilizing AWS Bedrock API for integrating LLM, ensuring scalability and performance"
+        ],
+        "tech_used": "NextJS, Amazon Bedrock, Amazon EC2, Firebase",
+        "tenure": "August 2024 - October 2024",
+        "link": ""
+    },
+    {
+        "name": "Skin Cancer Detection",
+        "designation": "Developer",
+        "platform": "Deep Learning",
+        "work": [
+            "Engineered a Skin Cancer Detection model employing Convolutional Neural Networks from Tensorflow Keras",
+            "Implemented four convolutional layers, with filters ranging from 32 to 128, used Softmax activation for distributing output among 11 classes, deployed ADAM optimizer with augmentation",
+            "Attained an accuracy of 93% on a dataset comprising over 25000 images covering eight cancer types"
+        ],
+        "tech_used": "CNN, Pandas, Keras, Tensorflow",
+        "tenure": "February 2024 - May 2024",
+        "link": ""
+    },
+    {
+        "name": "Out-of-Order APEX Processor Simulator",
+        "designation": "Developer",
+        "platform": "Computer Architecture",
+        "work": [
+            "Implemented a simulator for an out-of-order processor implementing an APEX-like ISA with an issue queue, load-store queue and reorder buffer that uses register renaming",
+            "Executed register renaming with 16 architectural and 25 physical registers, register forwarding, tag broadcasting and instruction branching",
+            "Successfully implemented a 6-stage APEX ISA pipeline with speculative execution with execution depth of 4"
+        ],
+        "tech_used": "C, Computer Architecture and Organization",
+        "tenure": "September 2024 - December 2024",
+        "link": ""
+    },
+    {
+        "name": "Autocorrect using Textdistance",
+        "designation": "Developer",
+        "platform": "Natural Language Processing",
+        "work": [
+            "Fabricated an autocorrect application that recommends three closest words to the entered word",
+            "Employed Python scripting and Textdistance API, and consolidated a UI using Angular to visualize the API",
+            "Deployed the Flask API service on Render"
+        ],
+        "tech_used": "C, Computer Architecture and Organization",
+        "tenure": "January 2024 - February 2024",
+        "link": "https://venkatkishorp.github.io/autocorrect-ui/"
+    },
+    {
+        "name": "Reddit Data Sentiment Analysis",
+        "designation": "Co-Developer, Team Lead",
+        "platform": "Web Crawling, Data Analysis, Datascience",
+        "work": [
+            "Developed a scheduled data collection system to collect post related information from Reddit platform related to the India-Canada feud, performed data analysis and displayed the results in a web-based UI",
+            "Leveraged Angular and Flask framework and performed hate-speech analysis using ModerateHateSpeech API",
+            "Collected real-time data using Python scripts and Reddit developer API by scheduling the system using Crontab",
+            "Produced over 350 word-clouds, 15 sentiment analysis graphs and a data collection trend graph"
+        ],
+        "tech_used": "Python, Pandas, MatPlotLib, ModerateHateSpeech, Crontab",
+        "tenure": "October 2023 - December 2023",
+        "link": ""
+    },
+    {
+        "name": "Digit Recognizer",
+        "designation": "Developer",
+        "platform": "Deep Learning, AI",
+        "work": [
+            "Designed a 11-stage CNN to recognize handwritten digits",
+            "Trained the model with 42000 images and tested the model with 28000 images with 92% accuracy"
+        ],
+        "tech_used": "CNN, MatPlotLib, Pandas, Keras, Tensorflow",
+        "tenure": "July 2020 - August 2020",
+        "link": "https://www.kaggle.com/code/venkatkishor/digit-recognizer"
+    }
+]

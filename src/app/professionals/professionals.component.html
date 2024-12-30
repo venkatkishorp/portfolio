@@ -1,0 +1,24 @@
+<div class="p-2">
+    <h1><b>PROFESSIONAL EXPERIENCE</b></h1>
+
+    <mat-card *ngFor="let exp of experiences" appearance="outlined" class="mb-2">
+        <mat-card-header style="padding-bottom: 15px;">
+            <p style="font-size: large"><b>{{exp.title.toUpperCase()}}</b></p>
+            <!-- <span>
+                 &nbsp; <b>at</b> &nbsp; <span style="font-size: larger"><b>{{exp.company}}</b></span>, &nbsp; <span style="font-size: medium">{{exp.location}}</span>
+            </span> -->
+        </mat-card-header>
+        <mat-card-content>
+            <div>
+                <p style="font-size: medium; padding: 0; margin: 0;"><b>{{exp.company}}</b></p>
+                <p style="font-size: small">{{exp.location}}</p>
+            </div>
+            <mat-divider />
+            <ul>
+                <li *ngFor="let work of exp.work">{{work}}</li>
+            </ul>
+            <p><b>Tenure:</b> {{exp.tenure}}</p>
+            <p><b>Technologies used: {{exp.tech_used}}</b></p>
+        </mat-card-content>
+    </mat-card>
+</div>

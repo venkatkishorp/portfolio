@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Full Stack Developer",
+        "company": "Tata Consultancy Services",
+        "client": "Davita Kidney Care",
+        "location": "Hyderabad, Telangana, India",
+        "tenure": "January 2021 - December 2022",
+        "work": [
+            "Devised automated jobs and PLSQL procedures, developed UI and APIs using Angular and .Net for handling claims processing, addressing coverage discrepancies, managing patient and doctor information, and optimizing the inventory management",
+            "Engineered and delivered three robust frameworks, two UI and one functional, resulting in 5 universally re-usable UI components throughout the application, and received client appreciation award and star of the month award for my contribution",
+            "Contributed to a 27% increase in profit, resulting in over $335 million dollars of additional revenue during the year 2022-2023"
+        ],
+        "tech_used": [
+            "Angular",
+            ".Net",
+            "PLSQL",
+            "TFS"
+        ]
+    },
+    {
+        "title": "Computer Networks Teaching Assistant",
+        "company": "Binghamton University",
+        "client": "",
+        "location": "Binghamton, New York, USA",
+        "tenure": "August 2023 - December 2023",
+        "work": [
+            "Assisted in building the coursework, curriculum and the subject material for a class of 40 graduate and undergraduate students",
+            "Facilitated project demos, graded assignments and taught classes on HTTP protocols, DNS servers, TCP/UDP and CDN",
+            "Guided students in implementing a proxy server, DNS server and a server cache in Python and C++"
+        ],
+        "tech_used": [
+            "C++",
+            "Python",
+            "TCP/UDP",
+            "Wireshark"
+        ]
+    }
+]
