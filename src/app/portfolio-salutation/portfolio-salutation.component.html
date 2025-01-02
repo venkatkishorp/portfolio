@@ -1,28 +1,54 @@
-<mat-card appearance="outlined">
+<mat-card appearance="outlined" class="about-card">
     <mat-card-content>
-        <div class="row">
-            <div class="col-md-3">
-                <img style="border-radius: 50%" height="200" width="200" src="../../assets/Kishor.jpeg"/>
-            </div>
-            <div class="col-md-9" style="top: 50%;">
-                <p><b>MASTERS GRADUATE IN COMPUTER SCIENCE</b></p>
-                <p>Motivated Computer Science graduate student with expertise in web development, machine learning, problem-Solving, collaboration and delivering innovative solutions</p>
-                <p></p>
-            </div>
-        </div>
-        <div class="row pt-5">
-            <div class="col-md-3"></div>
-            <div class="col-md-6">
-                <div class="badge-base LI-profile-badge" 
-                     data-locale="en_US" 
-                     data-size="medium" 
-                     data-theme="light" 
-                     data-type="VERTICAL" 
-                     data-vanity="venkat-kishor-padmanaban" 
-                     data-version="v1">
+        <div class="row" style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
+            <div class="col-md-12" style="text-align: center;">
+                <img style="border-radius: 50%; opacity: 98% !important;" height="240" width="240" src="../../assets/Kishor.jpeg"/>
+                <div class="mt-3" style="top: 50%; text-align: center;">
+                    <p><b>FULL STACK, AI/ML DEVELOPER</b></p>
+                    <p><b>MASTERS GRADUATE IN COMPUTER SCIENCE FROM BINGHAMTON UNIVERSITY</b></p>
+                    <p>Motivated Computer Science graduate student with expertise in web development, machine learning, problem-Solving, collaboration and delivering innovative solutions</p>
+                    <p></p>
                 </div>
             </div>
-            <div class="col-md-3"></div>
+            
+            <!-- <div class="col-md-6" style="display:grid; justify-content: center;">
+                <div>
+                    <img height="100" width="110" src="../../assets/LI-In-Bug.png" />
+                </div>
+                <a href="https://github.com/venkatkishorp">
+                    <img style="cursor: pointer;" src="../../assets/github-mark.svg"/>
+                </a>
+                <svg (click)="copyToClipboard()" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
+                    <path fill="#4caf50" d="M45,16.2l-5,2.75l-5,4.75L35,40h7c1.657,0,3-1.343,3-3V16.2z"></path><path fill="#1e88e5" d="M3,16.2l3.614,1.71L13,23.7V40H6c-1.657,0-3-1.343-3-3V16.2z"></path><polygon fill="#e53935" points="35,11.2 24,19.45 13,11.2 12,17 13,23.7 24,31.95 35,23.7 36,17"></polygon><path fill="#c62828" d="M3,12.298V16.2l10,7.5V11.2L9.876,8.859C9.132,8.301,8.228,8,7.298,8h0C4.924,8,3,9.924,3,12.298z"></path><path fill="#fbc02d" d="M45,12.298V16.2l-10,7.5V11.2l3.124-2.341C38.868,8.301,39.772,8,40.702,8h0 C43.076,8,45,9.924,45,12.298z"></path>
+                </svg>
+            </div> -->
         </div>
+        <div class="row" style="display: flex; flex-direction: row; align-items: center; justify-content: center; text-align: center !important;">
+            <div>
+                <div style="text-align: center; opacity: 98% !important; margin: auto;" class="mt-3">
+                    <!-- <a href="https://github.com/venkatkishorp" target="_blank" class="mb-2">
+                        <img src="../../assets/github-mark.svg" alt="GitHub Logo" class="github-logo">
+                    </a>
+                    <a href="mailto:venkatkishorp@gmail.com">
+                        <img height="100" width="100" src="../../assets/gmail_icon.webp" alt="Gmail Logo" class="gmail-logo">
+                        <button class="gmail-button" (click)="copyToClipboard()">Copy Email</button>
+                    </a> -->
+                    <a href="https://www.linkedin.com/in/venkat-kishor-padmanaban/" target="_blank">
+                        <img height="60" width="65" src="../../assets/LI-In-Bug.png" />
+                    </a>
+                    <a href="https://github.com/venkatkishorp" target="_blank">
+                        <img height="60" width="60" style="cursor: pointer;" src="../../assets/github-mark.svg"/>
+                    </a>
+                    <svg style="cursor: pointer;" (click)="copyToClipboard()" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="60" height="60" viewBox="0 0 48 48">
+                        <path fill="#4caf50" d="M45,16.2l-5,2.75l-5,4.75L35,40h7c1.657,0,3-1.343,3-3V16.2z"></path><path fill="#1e88e5" d="M3,16.2l3.614,1.71L13,23.7V40H6c-1.657,0-3-1.343-3-3V16.2z"></path><polygon fill="#e53935" points="35,11.2 24,19.45 13,11.2 12,17 13,23.7 24,31.95 35,23.7 36,17"></polygon><path fill="#c62828" d="M3,12.298V16.2l10,7.5V11.2L9.876,8.859C9.132,8.301,8.228,8,7.298,8h0C4.924,8,3,9.924,3,12.298z"></path><path fill="#fbc02d" d="M45,12.298V16.2l-10,7.5V11.2l3.124-2.341C38.868,8.301,39.772,8,40.702,8h0 C43.076,8,45,9.924,45,12.298z"></path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="row pt-5">
+            <div class="col-md-3"></div>
+            
+            <div class="col-md-3"></div>
+        </div> -->
     </mat-card-content>
 </mat-card>

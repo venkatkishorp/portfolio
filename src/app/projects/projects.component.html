@@ -1,13 +1,18 @@
 <div>
     <h1><b>PROJECTS</b></h1>
     <div class="card-container p-2">
-        <mat-card *ngFor="let project of projects" appearance="outlined" class="mb-2 card">
+        <mat-card *ngFor="let project of projects" appearance="outlined" class="mb-2 card" style="flex-wrap: wrap;">
             <mat-card-header style="padding-bottom: 15px">
-                <span>
-                    <span style="font-size: large"><b>{{project.name.toUpperCase()}}</b></span> &nbsp; <span style="font-size: medium">{{project.designation}}</span>
-                </span>
+                <mat-card-title>
+                    <b>{{project.name.toUpperCase()}}</b>
+                </mat-card-title>
+                <mat-card-subtitle>
+                    {{project.designation}}
+                </mat-card-subtitle>
+                <!-- <span style="font-size: large"><b>{{project.name.toUpperCase()}}</b></span> &nbsp; &nbsp; <span style="font-size: medium">{{project.designation}}</span> -->
             </mat-card-header>
-            <mat-card-content>
+            <img mat-card-image src="{{project.img_url}}" height="300" width="100%" />
+            <mat-card-content style="padding: 2% !important;">
                 <ul style="text-align: justify;">
                     <li *ngFor="let work of project.work">{{work}}</li>
                 </ul>

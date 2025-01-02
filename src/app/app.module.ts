@@ -23,6 +23,7 @@ import {MatTooltipModule} from '@angular/material/tooltip';
 import { ContactMeComponent } from './contact-me/contact-me.component';
 import { ResumeComponent } from './resume/resume.component';
 import {MatDividerModule} from '@angular/material/divider';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import {MatDividerModule} from '@angular/material/divider';
     MatListModule,
     MatTooltipModule,
     MatGridListModule,
-    MatDividerModule
+    MatDividerModule,
+    MatSnackBarModule
     // MatCardFooter,
     // MatCardContent,
     // MatCardHeader

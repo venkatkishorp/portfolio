@@ -31,3 +31,123 @@
 .body-div {
     // background-color: rgb(114, 114, 108);
 }
+
+.about {
+    background-image: url('../../assets/bing-image.jpg');
+    padding: 20px;
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-size: cover; /* Scale the image to cover the div */
+    background-position: center;
+}
+
+.github-badge {
+    display: flex;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    border: 1px solid #d1d5da;
+    border-radius: 4px;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #0366d6;
+    width: fit-content;
+    transition: background-color 0.3s, border-color 0.3s;
+    margin: auto;
+}
+
+  .github-badge:hover {
+    background-color: #0366d6;
+    color: #fff;
+    border-color: #0366d6;
+  }
+
+  .github-logo {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+  }
+
+  .github-username {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 12px;
+  }
+
+  .github-button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .github-button:hover {
+    background-color: #218838;
+  }
+
+  .gmail-badge {
+    display: flex;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    border: 1px solid #d1d5da;
+    border-radius: 4px;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #d93025;
+    width: fit-content;
+    transition: background-color 0.3s, border-color 0.3s;
+    margin: auto;
+  }
+
+  .gmail-badge:hover {
+    background-color: #d93025;
+    color: #fff;
+    border-color: #d93025;
+  }
+
+  .gmail-logo {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+  }
+
+  .gmail-address {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 12px;
+  }
+
+  .gmail-button {
+    background-color: #34a853;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .gmail-button:hover {
+    background-color: #2c8d46;
+  }
+  .icon {
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    transition: transform 0.3s; /* Optional: Add a hover effect */
+  }
+
+  .icon:hover {
+    transform: scale(1.1); /* Optional: Slightly enlarge on hover */
+  }
+
+  .linkedin-badge {
+    margin: auto !important;
+  }

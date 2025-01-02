@@ -2,12 +2,49 @@
 <!-- <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script> -->
 <app-header></app-header>
 <div class="container" style="margin-top: 100px !important; margin: 2px solid #e9e5df !important;">
-    <div class="row" >
-        <div class="col-md-1"></div>
-        <div class="col-md-10">
+    <div class="row about" style="display: flex; flex-wrap: wrap;" >
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
             <app-portfolio-salutation></app-portfolio-salutation>
+            <!-- <div style="display: grid; align-items: center; opacity: 85%">
+                <div class="badge-base LI-profile-badge linkedin-badge" 
+                    data-locale="en_US" 
+                    data-size="medium" 
+                    data-theme="light" 
+                    data-type="VERTICAL" 
+                    data-vanity="venkat-kishor-padmanaban" 
+                    data-version="v1">
+                </div>
+                <div style="display: grid; align-items: center; opacity: 85%; margin: auto;">
+                    <a href="https://github.com/venkatkishorp" target="_blank" class="mb-2">
+                        <img src="../../assets/github-mark.svg" alt="GitHub Logo" class="github-logo">
+                    </a>
+                    <a href="mailto:venkatkishorp@gmail.com">
+                        <img src="../../assets/gmail_icon.webp" alt="Gmail Logo" class="gmail-logo">
+                        <button class="gmail-button" (click)="copyToClipboard()">Copy Email</button>
+                    </a>
+                </div>
+            </div> -->
         </div>
-        <div class="col-md-1"></div>
+        <div class="col-md-3" style="display: grid; align-items: center">
+            <!-- <div style="display: grid; align-items: center; opacity: 85%; margin: auto;">
+                <a href="https://github.com/venkatkishorp" target="_blank" class="mb-2">
+                    <img src="../../assets/github-mark.svg" alt="GitHub Logo" class="github-logo">
+                </a>
+                <a href="mailto:venkatkishorp@gmail.com">
+                    <img src="../../assets/gmail_icon.webp" alt="Gmail Logo" class="gmail-logo">
+                    <button class="gmail-button" (click)="copyToClipboard()">Copy Email</button>
+                </a>
+            </div> -->
+            <!-- <div style="margin: auto;">
+                <a href="https://github.com/venkatkishorp" target="_blank">
+                    <img  src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" class="github-logo icon">
+                </a>
+                <a href="mailto:venkatkishorp@gmail.com">
+                    <img  src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico" alt="Gmail Logo" class="gmail-logo icon">
+                </a>
+            </div> -->
+        </div>
     </div>
     <br/>
     <br/>
@@ -20,7 +57,7 @@
         </div>
         <div class="col-md-1"></div>
     </div>
-    <div class="row">
+    <div class="row" style="display: flex; flex-wrap: wrap;">
         <div class="col-md-1"></div>
         <div class="col-md-10">
             <app-projects></app-projects>
@@ -29,7 +66,7 @@
         </div>
         <div class="col-md-1"></div>
     </div>
-    <div class="row">
+    <div class="row" style="display: flex; flex-wrap: wrap;">
         <div class="col-md-1"></div>
         <div class="col-md-10">
             <app-professionals></app-professionals>
