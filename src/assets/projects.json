@@ -4,10 +4,11 @@
         "designation": "Developer",
         "platform": "Full Stack, LLMs",
         "work": [
-            "Built a clone of Splitwise, and added receipt scanning using camera or file upload, graphical split functionality, manual split functionality, groups addition and non-group expenses functionality",
-            "Integrated Google Gemini API to convert receipts to JSON, used NextJS and Google firebase for app development"
+            "Developed a Splitwise-style cost-splitting application using Integrated Amazon Bedrock LLM to extract structured itemized data from scanned or uploaded receipts",
+            "Implemented Google OAuth for authentication via an Auth Service, with API Gateway and RestTemplate-based inter-service communication",
+            "Used Apache Kafka for event-driven messaging between the Group and Transaction services"
         ],
-        "tech_used": "NextJS, Google Gemini, Firebase, Firestore",
+        "tech_used": "Spring Boot, Angular, Eureka, MongoDB, Apache Kafka, Amazon Bedrock",
         "tenure": "June 2024 - Present",
         "link": "https://splitwiserfe.vercel.app/",
         "img_url": "../../assets/splitwiser_img.png"
