@@ -1,20 +1,25 @@
 [
     {
-        "title": "Full Stack Developer",
+        "title": "Systems Engineer",
         "company": "Tata Consultancy Services",
         "client": "Davita Kidney Care",
         "location": "Hyderabad, Telangana, India",
         "tenure": "January 2021 - December 2022",
         "work": [
-            "Devised automated jobs and PLSQL procedures, developed UI and APIs using Angular and .Net for handling claims processing, addressing coverage discrepancies, managing patient and doctor information, and optimizing the inventory management",
-            "Engineered and delivered three robust frameworks, two UI and one functional, resulting in 5 universally re-usable UI components throughout the application, and received client appreciation award and star of the month award for my contribution",
-            "Contributed to a 27% increase in profit, resulting in over $335 million dollars of additional revenue during the year 2022-2023"
+            "Developed and maintained billing application for a healthcare client using Angular, Spring Boot and PLSQL to review treatment details, coverage changes, claim overrides, etc.",
+            "Facilitated communication between Patient Registration and Inventory Management services using Apache Kafka",
+            "Devised automated jobs and PLSQL procedures for claims processing and coverage discrepancy resolutions",
+            "Engineered and delivered three robust frameworks, two UI and one functional, resulting in 5 universally reusable UI components throughout the application, and implemented unit testing with Jasmine",
+            "Contributed to a 14% increase in profit during the year 2022-2023"
         ],
         "tech_used": [
             "Angular",
-            ".Net",
+            "Spring Boot",
             "PLSQL",
-            "TFS"
+            "Jasmine",
+            "TFS",
+            "C#",
+            "Microservices"
         ]
     },
     {
@@ -24,15 +29,16 @@
         "location": "Binghamton, New York, USA",
         "tenure": "August 2023 - December 2023",
         "work": [
-            "Assisted in building the coursework, curriculum and the subject material for a class of 40 graduate and undergraduate students",
+            "Assisted in enhancing the coursework, curriculum and the subject material for Computer Networks course",
             "Facilitated project demos, graded assignments and taught classes on HTTP protocols, DNS servers, TCP/UDP and CDN",
-            "Guided students in implementing a proxy server, DNS server and a server cache in Python and C++"
+            "Guided a class of 50 students in implementing a proxy server, DNS server and a server cache in Python and C++"
         ],
         "tech_used": [
             "C++",
             "Python",
             "TCP/UDP",
-            "Wireshark"
+            "Wireshark",
+            "Multi-Threading"
         ]
     }
 ]
