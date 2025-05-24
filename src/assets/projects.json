@@ -1,15 +1,29 @@
 [
     {
+        "name": "Spotify ETL Pipeline",
+        "designation": "Developer",
+        "platform": "ETL, AWS",
+        "work": [
+            "Developed an ETL pipeline – pushed raw data in S3 and triggered AWS Lambda function for transformation",
+            "Scheduled Lambda triggers using AWS Cloudwatch to run transform script periodically",
+            "Loaded transformed data in AWS Glue for analysis – Analysis dashboard implemented using Express and React"
+        ],
+        "tech_used": "AWS Lambda, AWS Cloudwatch, S3, Express, React",
+        "tenure": "January 2025 - March 2025",
+        "link": "",
+        "img_url": "../../assets/ETL-Pipeline-Diagram.png"
+    },
+    {
         "name": "Splitwiser",
         "designation": "Developer",
-        "platform": "Full Stack, LLMs",
+        "platform": "Microservices, Full-Stack, LLMs",
         "work": [
             "Developed a Splitwise-style cost-splitting application using Integrated Amazon Bedrock LLM to extract structured itemized data from scanned or uploaded receipts",
             "Implemented Google OAuth for authentication via an Auth Service, with API Gateway and RestTemplate-based inter-service communication",
             "Used Apache Kafka for event-driven messaging between the Group and Transaction services"
         ],
         "tech_used": "Spring Boot, Angular, Eureka, MongoDB, Apache Kafka, Amazon Bedrock",
-        "tenure": "June 2024 - Present",
+        "tenure": "June 2024 - December 2024",
         "link": "https://splitwiserfe.vercel.app/",
         "img_url": "../../assets/splitwiser_img.png"
     },
