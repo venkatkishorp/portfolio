@@ -28,19 +28,6 @@
         "img_url": "../../assets/splitwiser_img.png"
     },
     {
-        "name": "LLM Based Chatbot",
-        "designation": "Developer",
-        "platform": "Full Stack, LLMs",
-        "work": [
-            "Developed a chatbot application by integrating Llama model, including RAG (Retrieval-Augmented Generation) to provide context-aware user interactions",
-            "Deployed the application on AWS EC2, utilizing AWS Bedrock API for integrating LLM, ensuring scalability and performance"
-        ],
-        "tech_used": "NextJS, Amazon Bedrock, Amazon EC2, Firebase",
-        "tenure": "August 2024 - October 2024",
-        "link": "",
-        "img_url": "../../assets/chatbot_img.webp"
-    },
-    {
         "name": "Skin Cancer Detection",
         "designation": "Developer",
         "platform": "Deep Learning",

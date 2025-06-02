@@ -1,5 +1,47 @@
 [
     {
+        "title": "Software Engineering Fellow",
+        "company": "Headstarter",
+        "client": "",
+        "location": "Remote",
+        "tenure": "July 2024 - October 2024",
+        "work": [
+            "Developed a chatbot application by integrating Llama model, including RAG (Retrieval-Augmented Generation) to provide context-aware user interactions",
+            "Integrated HuggingFace vector embedding api and stored the results in PineCone DB",
+            "Deployed the application on AWS EC2, utilizing AWS Bedrock API for integrating LLM, ensuring scalability and performance",
+            "Implemented BDD using Mocha framework for unit testing"
+        ],
+        "tech_used": [
+            "Next.JS",
+            "RAG",
+            "LLMs",
+            "Amazon Bedrock",
+            "LLaMA",
+            "Hugging Face Vector Embedding",
+            "PineCode DB",
+            "Mocha"
+        ]
+    },
+    {
+        "title": "Computer Networks Teaching Assistant",
+        "company": "Binghamton University",
+        "client": "",
+        "location": "Binghamton, New York, USA",
+        "tenure": "August 2023 - December 2023",
+        "work": [
+            "Assisted in enhancing the coursework, curriculum and the subject material for Computer Networks course",
+            "Facilitated project demos, graded assignments and taught classes on HTTP protocols, DNS servers, TCP/UDP and CDN",
+            "Guided a class of 50 students in implementing a proxy server, DNS server and a server cache in Python and C++"
+        ],
+        "tech_used": [
+            "C++",
+            "Python",
+            "TCP/UDP",
+            "Wireshark",
+            "Multi-Threading"
+        ]
+    },
+    {
         "title": "Systems Engineer",
         "company": "Tata Consultancy Services",
         "client": "Davita Kidney Care",
@@ -23,22 +65,23 @@
         ]
     },
     {
-        "title": "Computer Networks Teaching Assistant",
-        "company": "Binghamton University",
+        "title": "Software Engineer Intern",
+        "company": "DXC Technologies",
         "client": "",
-        "location": "Binghamton, New York, USA",
-        "tenure": "August 2023 - December 2023",
+        "location": "Remote",
+        "tenure": "March 2020 - October 2020",
         "work": [
-            "Assisted in enhancing the coursework, curriculum and the subject material for Computer Networks course",
-            "Facilitated project demos, graded assignments and taught classes on HTTP protocols, DNS servers, TCP/UDP and CDN",
-            "Guided a class of 50 students in implementing a proxy server, DNS server and a server cache in Python and C++"
+            "Designed and implemented a serverless ETL pipeline using AWS Lambda and S3, enabling the automated ingestion, transformation, and storage of structured and semi-structured data from client systems—reducing manual intervention by 90%",
+            "Developed and deployed Lambda functions in Python to process and transform incoming data files (CSV/JSON)",
+            "Integrated CloudWatch and S3 event triggers to build a real-time workflow, enabling operations teams to monitor ETL health"
         ],
         "tech_used": [
-            "C++",
-            "Python",
-            "TCP/UDP",
-            "Wireshark",
-            "Multi-Threading"
+            "ETL",
+            "AWS S3",
+            "AWS Lambda",
+            "AWS Cloudwatch",
+            "AWS Eventbridge",
+            "Python"
         ]
     }
 ]
