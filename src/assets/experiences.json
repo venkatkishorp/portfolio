@@ -4,7 +4,7 @@
         "company": "Headstarter",
         "client": "",
         "location": "Remote",
-        "tenure": "July 2024 - October 2024",
+        "tenure": "July 2024 - September 2024",
         "work": [
             "Developed a chatbot application by integrating Llama model, including RAG (Retrieval-Augmented Generation) to provide context-aware user interactions",
             "Integrated HuggingFace vector embedding api and stored the results in PineCone DB",
