@@ -1,5 +1,20 @@
 [
     {
+        "name": "Dove MQ",
+        "designation": "Developer",
+        "platform": "Distributed Systems",
+        "work": [
+            "Working on developing a message queue from scratch, using Java, Spring Boot and gRPC",
+            "Developing Partition Assignment service, Broker Registry service, Leader Election service and Broker service for separation of concerns",
+            "Using gRPC to replicate message from Leader Broker to Follower Brokers, by achieving a quorom, for leader election during downtimes",
+            "Learning distributed architecture in detail and performance optimization techniques"
+        ],
+        "tech_used": "Java, Spring Boot, gRPC",
+        "tenure": "July 2025 - Present",
+        "link": "",
+        "img_url": "../../assets/mq_image.jpg"
+    },
+    {
         "name": "Spotify ETL Pipeline",
         "designation": "Developer",
         "platform": "ETL, AWS",
