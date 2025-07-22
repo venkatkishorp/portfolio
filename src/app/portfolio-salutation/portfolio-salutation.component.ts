@@ -20,11 +20,7 @@ export class PortfolioSalutationComponent implements OnInit {
       }
 
       const name_element = <HTMLElement>document.querySelector('.main-div');
-      // const image_element = <HTMLElement>document.querySelector('.profile-pic');
-      // const ruler_element = <HTMLElement>document.querySelector('.ruler');
       name_element.style.opacity = String(this.opacity);
-      // image_element.style.opacity = String(this.opacity);
-      // ruler_element.style.opacity = String(this.opacity);
     });
   }
 
